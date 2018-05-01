@@ -3,5 +3,7 @@
 
 def parrot (frase)
   p frase
-  default "Squawk!"
+  if frase == nil
+    p "Squawk!"
+  end
 end
