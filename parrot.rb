@@ -2,6 +2,6 @@
 # returns the phrase
 
 def parrot (frase)
-  puts frase
+  p frase
   default "Squawk!"
 end
